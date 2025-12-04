@@ -21,6 +21,7 @@
 #include "driver/gpio.h"
 #include "hal/gpio_types.h"
 #include "ff.h"
+#include <map>
 
 //#define SDMMC_AVI_HAS_INDEX 
 
