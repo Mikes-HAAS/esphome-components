@@ -21,6 +21,7 @@
 #include "esphome/core/component.h"
 #include "esphome/components/sensor/sensor.h"
 #include "sdmmc.h"
+#include <map>
 
 std::map<std::string, current_file_t> active_avi_processes;
 
