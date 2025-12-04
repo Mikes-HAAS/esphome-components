@@ -2,6 +2,7 @@
 // #ifndef SOC_SDMMC_USE_GPIO_MATRIX
 // #define SOC_SDMMC_USE_GPIO_MATRIX 1
 // #endif
+#include <map>
 #include <stdio.h>
 #include <string.h>
 #include <sys/unistd.h>
@@ -21,7 +22,6 @@
 #include "esphome/core/component.h"
 #include "esphome/components/sensor/sensor.h"
 #include "sdmmc.h"
-#include <map>
 
 std::map<std::string, current_file_t> active_avi_processes;
 
