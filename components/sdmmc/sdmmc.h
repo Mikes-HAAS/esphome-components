@@ -7,6 +7,7 @@
 #include "esphome/core/helpers.h"
 #include "esphome/core/defines.h"
 
+#include <map>
 #include "esphome/core/component.h"
 #include "esphome/components/sensor/sensor.h"
 #include "esphome/components/text_sensor/text_sensor.h"
@@ -21,7 +22,6 @@
 #include "driver/gpio.h"
 #include "hal/gpio_types.h"
 #include "ff.h"
-#include <map>
 
 //#define SDMMC_AVI_HAS_INDEX 
 
